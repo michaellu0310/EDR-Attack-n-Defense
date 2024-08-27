@@ -1,4 +1,4 @@
-# EDR Attack and Defense Home Lab
+# SOC Analyst Home Lab
 ## Introduction
 In this home lab, based on Eric Capuano's blog post [*So You Want To be a Soc Analyst?*](https://blog.ecapuano.com/p/so-you-want-to-be-a-soc-analyst-intro?utm_campaign=post&utm_medium=web), we'll be setting up a realistic cybersecurity scenario. 
 
