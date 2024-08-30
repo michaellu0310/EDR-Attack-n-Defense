@@ -71,3 +71,9 @@ Instead of focusing solely on detecting threats, we can now practice using LimaC
 ![VSS Shadow Copies](https://github.com/user-attachments/assets/23d07831-d024-440e-9903-96e06b561f16)
 ![Shadow Copies](https://github.com/user-attachments/assets/bb351529-757a-498f-b28e-2fc2770d79fa)
 ![VSS Deletion Kill It](https://github.com/user-attachments/assets/312474d0-92f2-4979-a551-19c921d5df35)
+
+### Challenges & Solutions
+
+**Challenge**: Difficulty establishing a connection between the Sliver C2 server on the Ubuntu Linux machine and the Windows 11 machine using Port 80 (HTTP).
+
+**Solution**: After researching and troubleshooting, I realized the issue was due to not having the necessary administrative privileges. By using the `sudo su` command to elevate my permissions on the Ubuntu machine, I was able to successfully establish the connection between the Sliver C2 server and the Windows 11 machine.
