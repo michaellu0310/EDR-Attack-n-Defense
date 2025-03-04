@@ -4,7 +4,12 @@ In this home lab, based on Eric Capuano's blog post [*So You Want To be a Soc An
 
 The lab will involve creating two virtual machines: one running Linux Ubuntu (acting as the attacker) and the other running Windows (serving as the victim). The Linux machine will use [Sliver](https://github.com/BishopFox/sliver/wiki), a Command & Control (C2) framework, to simulate a cyber attack, while the Windows machine will employ [LimaCharlie](https://limacharlie.io/) SIEM as an Endpoint Detection and Response (EDR) solution to detect and respond to the attack.
 
-**Key Skills**: EDR, Incident Response, Sysmon, LimaCharlie, Sliver (Command and Control), Ubuntu, Linux, Windows 11, CLI, Log Analysis and Correlation, SIEM, Virtualization and VM Management
+**Key Skills**: 
+- Endpoint Detection & Response (EDR) (LimaCharlie - Threat Hunting, Rule Creation, Log Analysis)
+- Threat Detection & Incident Response (Sysmon - Event Logging & Analysis, Windows Security Event Monitoring)
+- Adversary Simulation & Red Teaming (Sliver C2 - Command & Control, Payload Deployment, Evasion Techniques)
+- Log Analysis & SIEM (Windows Event Viewer, LimaCharlie - Log Forwarding & Correlation)
+- Windows Security & Hardening (Defensive Monitoring, Attack Investigation, Policy Implementation)
 
 #
 
